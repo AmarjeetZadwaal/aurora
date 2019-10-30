@@ -16,6 +16,10 @@ export const Link = styled(LinkCta)`
   &:visited {
     color: #0064e6;
   }
+
+  .banner-variant-info & {
+    text-decoration: underline;
+  }
 `;
 
 export const Container = styled.div`
